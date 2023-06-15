@@ -1,0 +1,75 @@
+
+
+   .menu-bar
+{
+    background: green;
+    text-align: ;
+    width: 300%;
+    height: auto; 
+}
+.menu-bar
+{
+    display: ;
+} 
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+
+.menu-bar ul li
+{
+    width: 120px;
+    height: 15px;
+    padding: 15px;
+}
+.menu-bar ul li     a {
+  text-decoration: none;
+    color: black;
+    }
+.avtive, .menu-bar ul li a{
+    background: green;
+    border-radius: 3px;
+}
+body {
+    background: green;
+}
+button {
+
+text-align: center;
+padding: 5px;
+border: 10px;
+cursor: pointer;
+box-shadow: 0 0 10px black;
+transition-duration: 2s; 
+{
+
+image {
+    box-shadow: 0 0 40px black;
+    radius: 20px;
+}
+
+li {
+    list-style-type: upper-roman;
+}
+
+p {
+    font-family: arial;
+    color: black;
+}
+
+#ol {
+    list-style-type: square;
+}
+
+.a {
+    color: white;
+    display: inline-flex;
+    border-radius: 3px;
+    width: 120px;
+    height: 15px;
+    padding: 15px;
+}
