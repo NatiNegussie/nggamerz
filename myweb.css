@@ -35,7 +35,11 @@
     border-radius: 3px;
 }
 body {
-    background: green;
+    background-image: url("i.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
 }
 button {
 
@@ -53,7 +57,7 @@ image {
 }
 
 li {
-    list-style-type: upper-roman;
+    style-type: upper-roman;
 }
 
 p {
@@ -65,11 +69,18 @@ p {
     list-style-type: square;
 }
 
-.a {
+a {
     color: white;
     display: inline-flex;
     border-radius: 3px;
     width: 120px;
     height: 15px;
     padding: 15px;
+    background: blue;
+}
+
+ul#demo{
+    max-height: 100px;
+    overflow-y: hidden;
+    
 }
