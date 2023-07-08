@@ -2,165 +2,205 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title> Download Page</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/653b590599.js" crossorigin="anonymous"></script>
+    <title>Page title</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: Arial;
+        }
+        body {
+            background-color: #1F023F;
+            height: 100vh;
+            width: 100%;
+        }
+        .top {
+            border: 2px solid white;
+            margin: 0 auto;           
+            box-shadow: 0 0 10px white;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            
+            
+        }
+        .top h1{
+            text-align: center;
+            border-bottom: 0.2px solid;
+        }
+        .filter{
+           
+        
+        }
+        .filter i {
+            vertical-align: -2px;
+            margin-left: 21%;
+        }
+       .main {
+           font-size: 0.5em;
+           
+           margin-top: 3em;
+           display: inline-block;
+       }
+       .header {
+           margin-top: 15px;
+           text-align: center;
+           font-size: 1em;
+           
+       }
+       .header img {
+           width: 10%;
+           ;
+       }
+       .creator {
+           display: ;
+           font-size: 0.5em;
+           width: 50%;
+       }
+            .creator img {
+        
+           min-width: 10%;
+           max-width: 15%;
+           margin-left: 5%;
+           vertical-align: -2px;
+           
+       }
+       .creator label {
+           vertical-align: -2px;
+       }
+       .container {
+           width: 100%;
+       }
+       .fig {
+           
+           margin-left: 2em;
+       }
+       hr {
+           margin-top: 5px;
+       }
+      .support {
+          width: 100%;
+          display: block;
+          text-align: center;
+      }
+      .support h2 {
+          text-align: center;
+          margin-top: 3px;
+      }
+      .support img {
+          width: 25%;
+          float: center;
+          margin-top: 0.5em;
+      }
+      .figs {
+          width: 50%;
+          text-align: center;
+          margin-left: 3px;
+      }
+      sub::after {
+          
+      }
+      .button button {
+          margin-top: 10px;
+          color: black;
+          background: ;
+          font-size: 124%;
+          box-shadow: 0 0 10px whitesmoke;
+          
+      }
+      .btn {
+          
+          margin-top: 8px;
+          justify-content: center;
+      }
+      iframe {
+          display: none;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          opacity: 0;
+      }
+      .go {
+          font-size: 10px;
+          text-align: center;
+          background: transparent;
+          border: none;
+          margin-top: 25px;
+          box-shadow: 0 0 10px white;
+          padding: 5px;
+          
+          text-align: center;
+          margin-bottom: 5px;
+          display: block;
+          
+      }
+      .hide {
+          font-size: 10px;
+          text-align: center;
+          background: transparent;
+          border: none;
+          margin-top: 25px;
+          box-shadow: 0 0 10px white;
+          padding: 5px;
+          margin-left: 10px;
+          text-align: center;
+          margin-bottom: 5px;
+          display: none;
+          
+      }
+      
+      
+    </style>
 </head>
-<style type="text/css">
-    * {
-        box-sizing: border-box;
-    }
-    body{
-        background-color: #d5fff4;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        background-attachment: fixed;
-        width: 100;
-        height: auto;
-    }
-    
-    .navigation {
-        top: 0;
-        margin: 0px;
-        margin-top: 0;
-        
-    }
-    .navigation li {
-        display: block;
-        margin: 0px;
-        padding: 0px;
-        border-bottom: 1px solid white;
-        border-size: 0.5px;
-        
-    }
-     .navigation ul {
-        display: block;
-        margin: 0px;
-        padding: 0px;
-        text-decoration: none;
-        background: darkblue;
-        
-        
-    }
-    .navigation ul li a {
-        text-decoration: none;
-        color: white;
-        
-    }
-    .navigation ul li a:hover {
-        color: gold;
-    }
-    
-      button:hover {
-    background-color: tomato;
-    color: white;
-    }
-    pre {
-    font-family: Times New Roman;
-    }
-    p {
-    color: black;
-    }
-    .anime {
-        animation-name: anime;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        }
-        .anime1 {
-        animation-name: anime;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-    }
-    @keyframes anime{
-        from {
-            margin-left: 0px;
-        }
-        to {
-            margin-right: 100px;
-                
-            }
-        }
-    
-    #btn {
-        background: lightblue;
-        text-align: center;
-        border-style: ;
-        border-color: #d5fff4;
-        font-size: 20px;
-        border-radius: 10px;
-        padding: 10px;
-    }
-     #btn1 {
-        background: lightblue;
-        text-align: center;
-        border-style: ;
-        border-color: #d5fff4;
-        font-size: 20px;
-        border-radius: 10px;
-        padding: 10px;
-    }
-</style>
 <body>
-    <div class="navigation">
-    <ul>
-   <li><a href="fifa16.html" sty gole="text-decoration: none; color: white; font-size: 17px; background: tomato; width: 200%; border-style: solid; border-color: black; border-radius: 5px; box-shadow: 0 0 10px black;"><b> Fifa 16 Mobile Hub</u></a> &nbsp
-    </li> 
-   <li> <a href="fifa16.html" st doyle="text-decoration: none; color: white; font-size: 17px; background: tomato; width: 200%; border-style: solid; border-color: black; border-radius: 5px; box-shadow: 0 0 10px black;"><b> Home</u></a> &nbsp</li>
-    <li><a href="welcome.html" st doyle="text-decoration: none; color: white; font-size: 17px; background: tomato; width: 200%; border-style: solid; border-color: black; border-radius: 5px; box-shadow: 0 0 10px black;"><b> About</u></a>  &nbsp</li>
-   <li><a href="tel: 0912872953" sty dole="text-decoration: none; color: white; font-size: 17px; background: tomato; width: 200%; border-style: solid; border-color: black; border-radius: 5px; box-shadow: 0 0 10px black;"><b> Call Us</u></a></li> 
-   
-   </ul>
-   </div>
-   <br>
-    <br>
-    <br>
-    <center>
-    
-    <p id="demo" style="color: white; font-family: serial; background: #1562ff;"> NEW FIFA 16 GAMEPLAY UPDATE</p>
-    <img src="20230628_142654.jpg" style="width: 100%; height: auto; float: center;">
-    <pre>
-    ALL DATA WORKING 
-    NO BUG
-    NEW PASS 
-    NEW CROSS
-    TRAINING MODE AVAILABLE 
-    
-    <p id="demo" style="color: white; background: #8098ff; font-size: 30px; text-align: center;">     V12</p>
-    <p id="demo" style="color: black;">     DOWNLOAD FROM</p>
-    <a href="https://sub4unlock.io/4SDMF"><img src="20230614_083214.png" style="width: 50%; height: auto; background: #2b82ff; border-radius: 10px; border-style: solid; "> </a>
-    <a href="https://sub4unlock.io/k9KJj"><img src="6ca6f96878d5b05aef5d205034303e48.png" style="width: 50%; height: auto;"> </a>
-    
-    <p>DON'T FORGET TO SUBSCRIBE</p>
-    <div class="anime">
-        <a href=""><button  id="btn">CLICK TO GET PASSWORD</button></a>
-        <p id="demo"> </p>
-    </div>   
-   <p id="demo" style="color: white; background: #8098ff; font-size: 20px; text-align: center;">     V13 IMPROVED GRAPHICS</p>
-    <p id="demo" style="color: black;">     DOWNLOAD FROM</p>
-    <a href="https://sub4unlock.io/YO2jH"><img src="20230614_083214.png" style="width: 50%; height: auto; background: #2b82ff; border-radius: 10px; border-style: solid; "> </a>
-    <a href="https://sub4unlock.io/UIrGH"><img src="6ca6f96878d5b05aef5d205034303e48.png" style="width: 50%; height: auto;"> </a>
-    
-    <p><q>DON'T FORGET TO <br>PLAY TRAINING MODE <br>IF YOU HAVE LOW-END DEVICE</p>
-    
-
-    <div class="anime1">
-        <a href=""><button  id="btn1">CLICK TO GET PASSWORD</button></a>
-        <p id="demo1"> </p>
+    <div class="container">
+        <div class="top">
+            <h1>NG GAMERZ</h1>
+            <div class="filter">
+                
+                <i class="fa-solid fa-filter" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-telegram" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-envelope"></i></div>
+            </div>
+            <h1 class="header"><img src="20230701_143425.png" alt="our logo"></h1>
+            <div class="main">
+                <div class="creator"><img src="20230708_113341.png" alt=""><figcaption class="fig">I am a content creator from Ethiopia (AFRICA).  And I am Highschool Student, That Has A desire To Create Different Gaming Content For My Subscribers & Viewers. The Reason That I started Creating Content Was To Become A successful Youtuber That Can Share His Gaming Knowledge For Others. As You Know I am not monetized yet, but i try my best to become monetized soon, because of your support, Guys Please Help Me To Earn Money From My Content. I always make a video using my low-end phone (2gb ram, 2ghz)</figcaption></div>
+                <hr>
+                <div class="support">
+                    <h2>Today's App Sponsor</h2>
+                    <img src="20230708_124053.png" alt="">
+                    <p class="figs">
+                        This New App is Ai Generated by one of ours team member. This app is a social media app that enables you to upload videos and to contact with each other. You Can Also Add Your Comment Like a Real World Social Media Apps. </p>
+                        <sub>"SHARE YOUR GAMING VIDEOS"</sub>
+                       <div class="button"><a href="http://www.appcreator24.com/app2723301-zn3qxh" target="_blank"><button>DOWNLOAD </button></a></div> 
+                </div>
+                <center>
+            <div class="btn"><iframe src="download.html" id="frame"></iframe>
+            <button class="go" id="go"  onclick="myfunc()">DOWNLOAD PAGE</button>
+            <button class="hide" id="hide"  onclick="mybutton()">CLOSE</button> </div>
     </div>
- <script>
-   var btn = document.getElementById("btn");
-      
-      // the block of codes below is called event handler
-      btn.onclick = function() {
-         alert("nggamerz");
-      };
-      var btn = document.getElementById("btn1");
-      
-      // the block of codes below is called event handler
-      btn.onclick = function() {
-         alert("new gameplay");
-      };
- </script>
-   
+    <script>
+       function myfunc() {
+           var iframe = document.getElementById("frame");
+           iframe.style.opacity = "1";
+           iframe.style.display = "block";
+           var button = document.getElementById("go");
+           button.style.opacity = "0";
+           document.getElementById("hide").style.display = "block"
+           
+       }
+       function mybutton() {
+           var iframe = document.getElementById("frame");
+           iframe.style.opacity = "0";
+           iframe.style.display = "none";
+           document.getElementById("hide").style.display = "none";
+        var button = document.getElementById("go");
+           button.style.opacity = "1";
+       }
+    </script>
 </body>
 </html>
