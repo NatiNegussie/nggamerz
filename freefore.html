@@ -1,40 +1,235 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Page title</title>
-    <link href="myweb.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DLS</title>
+  <style type="">
+      * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    color: white;
+  }
+  body {
+    background: linear-gradient(rgba(109, 7, 134, 0.8), rgba(109, 7, 134, 0.8)), url(i.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    height: auto;
+  }
+  .logo {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    align-items: stretch;
+    
+  }
+  .brand, .ng, .menu {
+    
+    width: 30%;
+    height: 10vh;
 
-    <nav> 
-        <a href="homepage.html" style="text-decoration: none; color: white;"> <b>Home</a>
-        <center>
-                   <img style="width: 100px; height: auto; float:center;" src="Logo_of_Garena_Free_Fire.png">
-        </nav> 
-        <br>
-        <br>
-               <center>
-                   <br>
-                   <br>
-            <img style="height: auto; width: 50%; border-radius: 20px;" src="unnamed (1).png">
-            <p id="demo"> GFX TOOL FOR FREE FIRE</p
-            <ol>
-            <li> 60fps+ And Smooth Gameplay </li>
-            <li> Different Graphics Options </li>
-            <li> LAG FIX </li>
-            <br>
-            <br>
-            
-            <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://gfx-tool-free-fire-booster.en.softonic.com/android&ved=2ahUKEwiBosTC1ML_AhXgygIHHXm2A5sQFnoECBAQAQ&usg=AOvVaw2lpyfRRh0LFOHlci9zjSma"> <button type="button" style="font-size: 25px;"> Go To Download Page </button></a>
-            <br>
-            <br>
-            <br>
-            <p id="demo"> TIPS TO BE PRO IN FREE FIRE</p>
-            <ol>
-                <li <p id="demo">Use Gloo Wall wisely- The Gloo Wall is a significant feature that can help you to survive longer by acting as a shield. ...
-Shoot when it's red hot: While attacking the enemy in the game, players must notice their sights turn red for a brief moment.
-<li <p id="demo"> Shoot when it's red hot: While attacking the enemy in the game, players must notice their sights turn red for a brief moment.</p>
+  }
+  .ng {
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+  }
+  .ng img {
+    width: 30%;
+    max-width: 120px;
+    text-align: center;
+    margin-top: 0.5em;
+  }
+  .menu img {
+    
+    width: 30%;
+    max-width: 120px;
+    text-align: center;
+
+    
+  }
+  .menu {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5em;
+  }
+  .brand h1 {
+    font-size: 125%;
+    margin-top: 0.8em;
+  }
+  .content ul li {
+    list-style-type: none;
+    display: block;
+    
+    border-bottom: 1px solid white;
+
+  }
+  .content ul li a {
+    display: block;
+    text-decoration: none;
+  }
+  .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+.menu:hover .content {
+  display: block;
+}
+.content a:hover {
+  background-color: purple;
+}
+.content a {
+  padding-bottom: 10px;
+}
+.title {
+  text-align: center;
+  font-size: 80%;
+}
+.games {
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+  
+  margin-left: 5%;
+}
+.games h1 {
+  text-align: center;
+}
+.fifa, .dls, .fts {
+  width: 100%;
+  justify-content: space-between;
+  
+}
+.fifa img {
+  width: 50%;
+
+  object-fit: cover;
+  justify-content: space-between;
+border-radius: 15px;
+  padding-bottom: 2%;
+}
+.dls img {
+  width: 50%;
+  
+  object-fit: cover;
+  padding-bottom: 2%;
+  border-radius: 15px;
+}
+.fts img {
+  width: 50%;
+  border-radius: 15px 5px;
+  object-fit: cover;
+  justify-content: space-between;
+
+  padding-bottom: 2%;
+  }
+  .games img:hover {
+    
+    width: 60%;
+    z-index: -1;
+  }
+  .dream {
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+  .dream h3 {
+background-color: purple;
+width: 30%;
+border: 2px solid lightblue;
+border-radius: 5px;
+text-align: center;
+  }
+  @keyframes myanime {
+    from{
+      background-color: purple;
+
+    }
+    to {
+      background-color: violet;
+    }
+  }
+  .about img {
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 5%;
+  }
+  .about h2{
+    margin-left: 2%;
+  }
+ .about li, h4 {
+    margin-left: 2%;
+  }
+  .about li {
+    padding-bottom: 2%;
+  }
+  .button {
+    text-align: center;
+
+  }
+  .button button {
+    width: 30%;
+    height: 30px;
+    background-color: purple;
+    border: 0.1px violet solid;
+    animation-name: myanime;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    border-radius: 5px;
+  }
+  </style>
 </head>
 <body>
-    
+<div class="container">
+  <header>
+    <div class="logo">
+      <div class="brand">
+        <h1>NG GAMERZ YOUTUBE</h1>
+      </div>
+      <div class="ng">
+        <img src="20230626_042402.png">
+      </div>
+      <div class="menu">
+        <img src="i.png" id="img">
+        
+      <div class="content">
+          <ul>
+         <li><a href="freefire.html">FIFA 16</a></li>
+          <li><a href="freefore.html">FTS 23/24</a></li>
+          <li><a href="mod.html">FIFA 16 MOD 23</a></li>
+          <li><a href="fifa16.html">Dream League 23/24</a></li>
+          <li><a href="index.html">HOME</a></li>
+        </ul>
+        </div>
+        </div>
+      </div>
+    </header>
+        <div class="dream">
+          <h3>FTS 23/24</h3>
+        </div>
+        <div class="about">
+          <img src="https://kenumerique.com/wp-content/uploads/2022/08/Telecharger-First-Touch-Soccer-2023-mod-apk-1.jpg">
+          <h2>FTS 23</h2>
+          <h4>System Requirement</h4><br>
+          <li>1/2/3...GB RAM</li>
+          <li>1.3+ GHZ Proccessor Device For better Gameplay</li>
+          <li>500MB Free Space</li>
+          <div class="button"><a href="https://sub4unlock.io/S5PNh"><button>Download Now</button></a></div><br><br>
+        </div>
+        <div class="about">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHZu1xXorXfIvrSdeHewoEwHtchHpsdA1bHkpQAhm3G_BciPdjSGEmRYGIjbePEITz4acUDs_W4gjOvsML2dt_3c0vSsu-TCb_HPGknChCvVSfLmh7dx6KzDN2HOMA_NZtpsT1hLn4XNEG5gjJKl9rOFIzCg3nFbd4tbC2gaBeFnajRtfb97KuEd_-/s1280/maxresdefault.jpg">
+          <h2>FTS 24</h2>
+          <h4>System Requirement</h4><br>
+          <li>1/2/3...GB RAM</li>
+          <li>1.3+ GHZ Proccessor Device For better Gameplay</li>
+          <li>500MB Free Space</li>
+          <div class="button"><a href="https://sub4unlock.io/EVObk"><button>Download Now</button></a></div><br><br>
+        </div>
 </body>
 </html>
